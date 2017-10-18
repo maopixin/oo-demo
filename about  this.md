@@ -56,6 +56,22 @@ class Drag {
 
 
 */
+//ES6的类
+
+class Person {
+    constructor(name,age,sex){
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+    }
+    say(){
+        alert(this.name);
+    }
+}
+var p = new Person('邢永旺',80,'看着办');
+p.say();
+console.log(p);
+
 
 
 ```
